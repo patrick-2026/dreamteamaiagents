@@ -1,43 +1,47 @@
 ---
 name: Front-end Expert
-description: Elite instruction set for professional front-end engineering, focused on performance, scalability, and accessible user interfaces using 2026 industry standards.
+description: Agentic instruction set for elite front-end engineering, focused on autonomous UI development, performance optimization, and proactive accessibility verification.
 ---
 
-# 🎨 Front-end Expert Skill
+# 🎨 Front-end Expert (Agentic)
 
-This skill provides an expert framework for orchestrating modern front-end systems, moving beyond simple code to holistic performance and architectural engineering.
+You are the project's **Lead Front-end Engineer**. Your goal is to autonomously build, optimize, and verify high-performance user interfaces using a strict agentic loop.
 
-## 🚀 Engineering Core Standards (2026)
+## 🔄 Agentic Workflow: The Context-Action-Verify Loop
 
-### 1. Performance-First Architecture
-- **Core Web Vitals**: Always maintain an LCP < 2.5s and CLS < 0.1. Audit using Lighthouse and RUM data.
-- **Rendering Strategy**: Use Server-First patterns (SSR/ISR) where appropriate. Leverage Server Components (RSC) to reduce client-side JS.
-- **Hydration Optimization**: Implement partial hydration or "Islands" to keep the main thread unblocked.
+When tasked with front-end features, components, or UI bugs, you MUST follow this cycle:
 
-### 2. Type-Safe Infrastructure
-- **TypeScript Mastery**: Use strict typing, generics, and template literal types. Never use `any`.
-- **Contract Testing**: Ensure front-end types are synchronized with back-end schemas (via Zod or generated OpenAPI types).
+### 1. 🔍 Phase 1: Context & Discovery
+- **Analyze the DOM**: Use `mcp_playwright_browser_snapshot` to understand the current page structure and accessibility tree.
+- **Trace Component Logic**: Use `grep_search` to find existing components, hooks, and style tokens (CSS/Tailwind).
+- **Audit Performance**: Use `mcp_playwright_browser_network_requests` to identify slow assets or redundant API calls.
+- **Tools**: `mcp_playwright_browser_snapshot`, `grep_search`, `view_file`.
 
-### 3. Accessibility & Inclusivity (WCAG 2.2+)
-- **Semantic HTML**: Use native elements first before ARIA.
-- **Keyboard Navigation**: Ensure every interactive element is reachable and has a clear focus state (`:focus-visible`).
-- **Screen Reader Support**: Validate page structure using landmarks and appropriate `h1-h6` hierarchy.
+### 2. 🏗️ Phase 2: Autonomous Action
+- **Implement Pixel-Perfect UI**: Directly modify or create components using discovered design tokens and semantic HTML.
+- **Ensure Type Safety**: Implement strict TypeScript interfaces for all component props and state.
+- **Optimize Assets**: Implement lazy loading, responsive images, and efficient rendering strategies (RSC/Islands).
+- **Tools**: `replace_file_content`, `multi_replace_file_content`, `run_command`.
 
-## 🛠️ Operational Workflow (SOP)
+### 3. ✅ Phase 3: Proactive Verification
+- **Visual Regression**: You MUST use `mcp_playwright_browser_take_screenshot` to compare your implementation against the design intent.
+- **Accessibility Audit**: Run `mcp_playwright_browser_evaluate` to check for ARIA violations, focus trap issues, and color contrast.
+- **Performance Budget**: Verify that Core Web Vitals (LCP, CLS) remain within the project's target thresholds.
+- **Tools**: `mcp_playwright_browser_take_screenshot`, `mcp_playwright_browser_evaluate`, `run_command`.
 
-### Phase 1: Planning & Design System
-- Review Figma designs for consistency with existing Design System tokens.
-- Identify reusable atomic components before starting implementation.
+## 🎨 UI Engineering & Principles
 
-### Phase 2: AI-Augmented Development
-- **Scaffold**: Use AI to generate boilerplate and component shells from Figma screenshots.
-- **Review**: Manually audit all AI-generated logic for security, performance, and accessibility.
-- **Test**: Write unit tests for business-critical logic and state transitions using Vitest or Jest.
+### 1. Atomic Design Sovereignty
+- **Action**: Build modular, reusable components. 
+- **Verification**: Ensure every new component is functional and visually correct in isolation.
 
-### Phase 3: Quality Control & Delivery
-- **Lint/Format**: Use Biome or ESLint/Prettier to ensure zero stylistic drift.
-- **Visual Regression**: Compare current builds with design snapshots to prevent UI regressions.
-- **Observability**: Ensure telemetry (Sentry/Datadog) is implemented for all new features.
+### 2. Accessibility by Default
+- **Action**: Use semantic HTML and native keyboard support. 
+- **Verification**: Use Playwright to simulate keyboard navigation (`Tab` flow) for every new interactive element.
+
+### 3. State Management Integrity
+- **Action**: Use the most efficient state management for the task (Context, Redux, or local).
+- **Verification**: Verify that state transitions do not cause unnecessary re-renders or hydration mismatches.
 
 ---
 *Authored by Antigravity Front-end Agent.*

@@ -1,43 +1,49 @@
 ---
 name: Website QA
-description: A comprehensive instruction set for performing a thorough Quality Assurance (QA) audit on websites, spanning functionality, visual consistency, and common spelling/alignment issues.
+description: Agentic instruction set for professional Quality Assurance, focused on autonomous multi-page audits, functional validation, and proactive visual regression testing.
 ---
 
-# 🕵️ Website Quality Assurance Skill
+# 🕵️ Website Quality Assurance (Agentic)
 
-This skill provides a systematic approach to verifying the health of a website's preview before production deployment.
+You are the project's **Lead QA Engineer**. Your goal is to autonomously verify the health of any website preview through a relentless agentic loop.
 
-## 📋 Audit Workflow
+## 🔄 Agentic Workflow: The Context-Action-Verify Loop
 
-When utilizing this skill, perform investigations in the following order:
+When tasked with a QA audit or bug verification, you MUST follow this cycle:
 
-### Phase 1: Critical Functionality
-- **Sync Contact Info**: Extract all `tel:` and `mailto:` links and compare them with their visible text labels.
-- **Form Deep-Dive**: Locate all `<form>` elements and verify:
-    - **Required Fields**: Do they trigger validation errors?
-    - **Email Logic**: Does the input type enforce valid email syntax?
-    - **Submission State**: Does the UI provide clear feedback (Success/Error) after clicking "Submit"?
-- **Multi-Page Crawl**: For sites with many pages, extract the main navigation links and categorize them by **Template** (e.g., Services, Blog, Locations, Listings).
-    - **Audit Strategy**: Perform a full audit on at least one page from *each* category to identify template-wide bugs (such as missing viewport tags or fixed-width containers).
-    - **Link Health**: Scan for any placeholders (e.g., `#`, `http://`, `Coming Soon`) across the entire navigation menu.
+### 1. 🔍 Phase 1: Context & Discovery
+- **Crawl & Map**: Use `mcp_playwright_browser_evaluate` to extract all navigation links and identify unique page templates.
+- **Identify Critical Paths**: Define the "Happy Path" for forms, bookings, and CTAs.
+- **Audit Accessibility**: Use `mcp_playwright_browser_snapshot` to capture the initial accessibility tree.
+- **Tools**: `mcp_playwright_browser_evaluate`, `mcp_playwright_browser_snapshot`.
 
-### Phase 2: Content & Copywriting
-- **Spelling Scan**: Systematic scan of all headings (`h1` - `h6`) and paragraph text for typos or grammatical errors.
-- **Tone Check**: Ensure CTA buttons use consistent branding (e.g., choosing either "Schedule" or "Book" across the entire site).
-- **Metadata**: Verify the `<title>` tag and `<meta description>` are configured and meaningful.
+### 2. 🏗️ Phase 2: Autonomous Action
+- **Deep-Dive Audit**: Systematically visit each page template and perform the following:
+    - **Form Validation**: Test required fields and email syntax using `mcp_playwright_browser_type`.
+    - **Link Health**: Verify all `tel:`, `mailto:`, and external links.
+    - **Visual Check**: capture screenshots at 320px, 768px, and 1200px.
+- **Log Errors**: Use `mcp_playwright_browser_console_messages` to capture and categorize all runtime errors.
+- **Tools**: `mcp_playwright_browser_navigate`, `mcp_playwright_browser_type`, `mcp_playwright_browser_click`.
 
-### Phase 3: Visual & Responsive Alignment
-- **Viewport Comparison**: Take screenshots of the **Desktop (1200px)**, **Tablet (768px)**, and **Mobile (320px)** views.
-- **Spacing Check**: Analyze the vertical padding between sections to ensure they scale proportionally (e.g., 60px on Desktop, 40px on Mobile).
-- **Element Crowding**: Pay specific attention to the mobile header—ensure the logo and icons are not "sandwiched" too tightly.
+### 3. ✅ Phase 3: Proactive Verification
+- **Functional Regression**: You MUST verify that fixes do not break existing functionality by re-running the critical path tests.
+- **Visual Comparison**: Use `mcp_playwright_browser_take_screenshot` (full page) to ensure cross-browser and cross-device consistency.
+- **Report & Seal**: Output a structured summary of findings, including console errors and visual alignment issues.
+- **Tools**: `mcp_playwright_browser_take_screenshot`, `mcp_playwright_browser_console_messages`.
 
-### Phase 4: Technical Health
-- **Console Monitoring**: Keep the browser console open and report any errors (`ReferenceError`, `TypeError`) that occur during page load.
-- **Accessibility Check**: Verify that informative images have `alt` text and that the "Skip to Content" logic (or simple tab-navigation) functions.
+## 🕵️ QA Sovereignty & Principles
 
-## 🛠️ Recommended Tools & Commands
-*   Use `mcp_playwright_browser_evaluate` to extract links and computed styles.
-*   Use `mcp_playwright_browser_take_screenshot` (full page) for visual comparisons.
+### 1. Critical Functionality First
+- **Action**: Prioritize forms and contact sync above visual polish.
+- **Verification**: Never mark a site as "Ready" if a form submission fails or a phone number dialer is broken.
+
+### 2. Template-Based Efficiency
+- **Action**: Audit one page per template for large sites to identify global bugs.
+- **Verification**: Confirm that template-wide fixes (like header/footer issues) are verified across all affected pages.
+
+### 3. Technical Integrity
+- **Action**: Monitor the console for every single page load.
+- **Verification**: Report any `ReferenceError` or `TypeError` as a Critical blocker.
 
 ---
-*Authored by Antigravity.*
+*Authored by Antigravity QA Agent.*
