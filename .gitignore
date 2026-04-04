@@ -1,0 +1,13 @@
+# Temporary files and logs
+.playwright-mcp/
+*.log
+
+# Dependency directories
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Gemini/Antigravity internal files
+.gemini/
