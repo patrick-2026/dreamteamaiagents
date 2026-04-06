@@ -67,27 +67,41 @@ This single `mcp_playwright_browser_evaluate` call captures everything that does
     return { tag, fontFamily: s.fontFamily.split(',')[0].trim(), fontSize: s.fontSize, fontWeight: s.fontWeight, lineHeight: s.lineHeight };
   });
 
-  // --- DESIGN: BUTTON STYLES ---
+  // --- DESIGN: BUTTON STYLES (Consistency Check) ---
   const buttons = Array.from(document.querySelectorAll('a, button')).filter(el => {
     const s = window.getComputedStyle(el);
-    return s.backgroundColor !== 'rgba(0, 0, 0, 0)' && el.innerText.trim().length > 0;
+    return s.backgroundColor !== 'rgba(0, 0, 0, 0)' || s.borderWidth !== '0px';
   }).map(el => {
     const s = window.getComputedStyle(el);
-    return { text: el.innerText.trim().slice(0, 40), bg: s.backgroundColor, borderRadius: s.borderRadius, fontWeight: s.fontWeight };
-  }).slice(0, 12);
+    return { 
+      text: el.innerText.trim().slice(0, 30), 
+      bg: s.backgroundColor, 
+      radius: s.borderRadius, 
+      border: s.borderWidth,
+      height: s.height
+    };
+  }).slice(0, 15);
 
-  // --- DESIGN: BACKGROUND COLORS ---
-  const bgCount = {};
-  Array.from(document.querySelectorAll('section, div, header, footer, nav')).slice(0,100).forEach(el => {
-    const c = window.getComputedStyle(el).backgroundColor;
-    if (c !== 'rgba(0, 0, 0, 0)') bgCount[c] = (bgCount[c]||0)+1;
-  });
-  const topColors = Object.entries(bgCount).sort((a,b) => b[1]-a[1]).slice(0,6);
+  // --- DESIGN: COLOR HIERARCHY ---
+  const buttonColors = [...new Set(buttons.map(b => b.bg))];
+  const hasColorConflict = buttonColors.length > 2; // More than 2 primary CTA colors is a flag
+
+  // --- DESIGN: SPACING & BORDERS ---
+  const spacings = Array.from(document.querySelectorAll('section, main > div, .section, .container')).map(el => {
+     const s = window.getComputedStyle(el);
+     return s.paddingTop + ' / ' + s.paddingBottom;
+  }).filter(p => p !== '0px / 0px');
+  const uniqueSpacings = [...new Set(spacings)].slice(0, 5);
+
+  const borderRadii = Array.from(document.querySelectorAll('button, img, input, .card, a')).map(el => {
+      return window.getComputedStyle(el).borderRadius;
+  }).filter(r => r !== '0px' && r !== '50%');
+  const uniqueRadii = [...new Set(borderRadii)].slice(0, 5);
 
   // --- NAV LINKS MAP ---
   const navLinks = Array.from(document.querySelectorAll('a[href]')).map(a => ({ text: a.innerText.trim(), href: a.href })).filter(a => a.text).slice(0, 30);
 
-  return { phoneLinks, emailLinks, a11y, content, typography, buttons, topColors, navLinks };
+  return { phoneLinks, emailLinks, a11y, content, typography, buttons, buttonColors, hasColorConflict, navLinks, design: { uniqueSpacings, uniqueRadii } };
 }
 ```
 
@@ -102,7 +116,11 @@ This single `mcp_playwright_browser_evaluate` call captures everything that does
 | Lorem Ipsum | Found | 🟡 MEDIUM |
 | Placeholder links | Any `href="#"` in nav/footer | 🟡 MEDIUM |
 | Font families | > 2 unique families | 🟡 MEDIUM |
-| Button border-radius | Inconsistent across buttons | 🟡 MEDIUM |
+| CTA Border-Radius | Inconsistent across buttons (e.g. 0px vs 5px) | 🟡 MEDIUM |
+| CTA Color Battle | > 2 high-contrast colors for primary actions | 🟡 MEDIUM |
+| CTA Height Drift | > 5px difference in primary button heights | 🟢 LOW |
+| Overall border-radius| > 3 distinct radii across all elements | 🟡 MEDIUM |
+| Section Spacing | > 3 distinct Y-paddings | 🟡 MEDIUM |
 | Background colors | > 5 distinct colors | 🟡 MEDIUM |
 
 ---
@@ -200,6 +218,8 @@ Study each screenshot as a Senior Designer would. Log findings against these cri
 | **Card height uniformity** | Sibling cards differ in height in grid | 🟡 MEDIUM |
 | **Spacing rhythm** | One section feels cramped, adjacent one spacious | 🟡 MEDIUM |
 | **Visual hierarchy** | CTA not dominant above the fold | 🟠 HIGH |
+| **Nav Overlap** | Header links colliding with Hero title at 1200px | 🟠 HIGH |
+| **Flex Wrap Fail** | Menu items dropping to new row (uncentered) | 🟡 MEDIUM |
 | **Content centering** | Headings/buttons misaligned on mobile | 🟡 MEDIUM |
 | **Image quality** | Blurry, stretched, or badly cropped photos | 🟠 HIGH |
 | **Team photo consistency** | Inconsistent backgrounds across team section | 🟡 MEDIUM |
