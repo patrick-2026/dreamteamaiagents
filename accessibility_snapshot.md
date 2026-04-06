@@ -1,0 +1,662 @@
+- generic [active] [ref=e1]:
+  - generic "Accessibility Menu":
+    - button "Accessibility Menu" [ref=e1019] [cursor=pointer]
+  - generic [ref=e9]:
+    - generic [ref=e10]:
+      - banner [ref=e11]:
+        - text:      
+        - generic [ref=e15]:
+          - generic [ref=e17]:
+            - img "Logo for Vivid Dental, featuring a stylized tooth icon and the words" [ref=e21]
+            - paragraph [ref=e24]: 3560 Arlington Ave, Riverside, CA 92506
+          - generic [ref=e25]:
+            - text:          
+            - link "Call (951) 683-0680" [ref=e27] [cursor=pointer]:
+              - /url: tel:(951) 683-0680
+              - text: 
+              - generic [ref=e28]: Call (951) 683-0680
+            - button "Open menu" [ref=e30]:
+              - img [ref=e31]
+          - text: 
+      - generic [ref=e33]:
+        - button [ref=e40]:
+          - img [ref=e41]
+        - generic [ref=e47]:
+          - link [ref=e50] [cursor=pointer]:
+            - /url: /home-old
+            - img [ref=e51]
+          - navigation [ref=e53]:
+            - menubar [ref=e54]:
+              - menuitem [ref=e55]:
+                - link [ref=e56] [cursor=pointer]:
+                  - /url: /
+                  - generic [ref=e57]: Home 
+              - menuitem [ref=e58]:
+                - link [ref=e59] [cursor=pointer]:
+                  - /url: /about
+                  - generic [ref=e60]: About 
+              - menuitem [ref=e61]:
+                - link [ref=e62] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e63]:
+                    - text: Services
+                    - generic [ref=e64]: 
+                - menuitem [ref=e65]:
+                  - link [ref=e66] [cursor=pointer]:
+                    - /url: /family-dentistry
+                    - generic: Family Dentistry 
+                - menuitem [ref=e67]:
+                  - link [ref=e68] [cursor=pointer]:
+                    - /url: /dental-implants
+                    - generic: Dental Implants 
+                - menuitem [ref=e69]:
+                  - link [ref=e70] [cursor=pointer]:
+                    - /url: /veneers
+                    - generic: Veneers 
+                - menuitem [ref=e71]:
+                  - link [ref=e72] [cursor=pointer]:
+                    - /url: /invisalign
+                    - generic: Invisalign 
+              - menuitem [ref=e73]:
+                - link [ref=e74] [cursor=pointer]:
+                  - /url: /savings-plan
+                  - generic [ref=e75]: Savings Plan 
+              - menuitem [ref=e76]:
+                - link [ref=e77] [cursor=pointer]:
+                  - /url: /testimonials
+                  - generic [ref=e78]: Testimonials 
+              - menuitem [ref=e79]:
+                - link [ref=e80] [cursor=pointer]:
+                  - /url: /contact
+                  - generic [ref=e81]: Contact 
+        - link [ref=e88] [cursor=pointer]:
+          - /url: tel:(951) 683-0680
+          - text: 
+          - generic [ref=e89]: Call (951) 683-0680
+    - main [ref=e92]:
+      - generic [ref=e93]:
+        - text:       
+        - generic [ref=e99]:
+          - paragraph [ref=e102]: PROSTHODONTIC SPECIALIST
+          - generic [ref=e104]:
+            - paragraph [ref=e105]: Your Smile Deserves
+            - paragraph [ref=e106]: Expert Care
+          - separator [ref=e109]
+          - paragraph [ref=e112]: Experience dentistry with complete transparency. Digital scans, tooth-by-tooth education, and zero pressure, led by Prosthodontic Specialist Dr. John Rezaei.
+          - generic [ref=e114]:
+            - link "BOOK YOUR VISIT" [ref=e116] [cursor=pointer]:
+              - /url: /contact#ContactRequestAppointment
+              - text: 
+              - generic [ref=e117]: BOOK YOUR VISIT
+            - link "MEET DR. JOHN" [ref=e119] [cursor=pointer]:
+              - /url: /about
+              - text: 
+              - generic [ref=e120]: MEET DR. JOHN
+          - generic [ref=e121]:
+            - paragraph [ref=e124]: ★★★★★
+            - paragraph [ref=e127]: The dentist patients confidently recommend
+          - generic [ref=e128]:     
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - paragraph [ref=e137]:
+              - text: Family Dentistry
+              - text: Gentle care for patients of all ages.
+            - text: 
+          - generic [ref=e140]:
+            - paragraph [ref=e144]:
+              - text: Dental Implants
+              - text: Permanent tooth replacement solutions.
+            - link "LEARN MORE" [ref=e146] [cursor=pointer]:
+              - /url: /dental-implants
+              - text: 
+              - generic [ref=e147]: LEARN MORE
+          - generic [ref=e148]:
+            - paragraph [ref=e152]:
+              - text: Invisalign
+              - generic [ref=e153]: Clear aligners for straighter smiles
+            - text: 
+          - generic [ref=e156]:
+            - generic [ref=e158]:
+              - paragraph [ref=e159]: Comprehensive
+              - paragraph [ref=e160]: Dental Care
+              - paragraph [ref=e161]:
+                - text: for
+                - text: the Whole Family
+            - paragraph [ref=e165]: Comprehensive Dental Care for the Whole Family
+            - separator [ref=e168]
+            - paragraph [ref=e171]: From routine cleanings to advanced prosthodontics, we've got you covered.
+        - generic [ref=e178]:
+          - paragraph [ref=e181]: LIMITED-TIME SPECIALS
+          - paragraph [ref=e184]:
+            - generic [ref=e185]: Brighten Your Smile
+          - separator [ref=e188]
+          - paragraph [ref=e191]: Exclusive offers designed to help you save on the care you need, available for a short time only.
+          - generic [ref=e192]:
+            - text: 
+            - generic [ref=e193]:
+              - paragraph [ref=e196]:
+                - text: Saving Plan
+                - text: No Insurance? No Problem!
+              - paragraph [ref=e199]:
+                - strong [ref=e200]: Adult Plans Starting at $525
+              - paragraph [ref=e203]: 15% OFF All Dental Treatment
+              - link "LEARN ABOUT OUR SAVINGS PLAN" [ref=e205] [cursor=pointer]:
+                - /url: /savings-plan
+                - text: 
+                - generic [ref=e206]: LEARN ABOUT OUR SAVINGS PLAN
+        - generic [ref=e210]:
+          - img "Man with dark hair and a button-down shirt smiling at the camera." [ref=e215]
+          - generic [ref=e217]:
+            - heading "Meet Dr. John Rezaei" [level=1] [ref=e220]
+            - paragraph [ref=e223]: Prosthodontic Specialist & Practice Owner
+            - separator [ref=e226]
+            - paragraph [ref=e229]: Dr. John Rezaei brings over a decade of specialized training to Riverside. With degrees from UC Irvine and Tufts Dental School, plus advanced prosthodontic and implant training from Loma Linda University, he's earned the reputation as "the dentist other dentist refer to.
+            - paragraph [ref=e232]: UC IRVINE | TUFTS DENTAL | LOMA LINDA UNIVERSITY
+            - link "READ DR. JOHN'S FULL STORY" [ref=e234] [cursor=pointer]:
+              - /url: /about
+              - text: 
+              - generic [ref=e235]: READ DR. JOHN'S FULL STORY
+        - generic [ref=e244]:
+          - paragraph [ref=e245]: “We chose to become specialists because we wanted to solve complex problems created by poor oral health. We believe that everyone deserves a radiant, healthy smile.”
+          - paragraph [ref=e246]
+          - paragraph [ref=e247]: — Vivid Dental Team
+        - generic [ref=e252]:
+          - paragraph [ref=e255]: What Our Patients Say
+          - heading "Real experiences from patients who trust us with their smiles" [level=2] [ref=e258]
+          - generic [ref=e261]:
+            - generic [ref=e262]:
+              - heading "Overall Rating" [level=3] [ref=e263]
+              - generic [ref=e264]:
+                - generic [ref=e265]:
+                  - generic [ref=e266]: "5.0"
+                  - generic [ref=e267]:
+                    - img [ref=e268]
+                    - img [ref=e271]
+                    - img [ref=e274]
+                    - img [ref=e277]
+                    - img [ref=e280]
+                - generic [ref=e283]:
+                  - paragraph [ref=e284]: "16"
+                  - paragraph [ref=e285]: reviews
+              - link "Write a review" [ref=e286] [cursor=pointer]:
+                - /url: https://www.google.com/search?q=vivid+dental+3560+arlington+ave%2C+riverside%2C+ca+92506+review&sca_esv=4d6312b817cf602d&sxsrf=ANbL-n53n_EmxOPJJijweZ9VBBW3u03deA%3A1771288645448&ei=RbiTabCMG868vr0Pzf7l4AQ&ved=0ahUKEwjwwoa0pN-SAxVOnq8BHU1_GUwQ4dUDCBM&uact=5&oq=vivid+dental+3560+arlington+ave%2C+riverside%2C+ca+92506+review&gs_lp=Egxnd3Mtd2l6LXNlcnAiO3ZpdmlkIGRlbnRhbCAzNTYwIGFybGluZ3RvbiBhdmUsIHJpdmVyc2lkZSwgY2EgOTI1MDYgcmV2aWV3MggQABiABBiiBDIFEAAY7wUyBRAAGO8FMggQABiABBiiBDIFEAAY7wVIsUBQoxNYsD1wC3gAkAEAmAHXAaABsg6qAQYwLjEwLjK4AQPIAQD4AQH4AQKYAhagAvcNqAIKwgILEAAYgAQYsAMYogTCAggQABiwAxjvBcICFxAAGIAEGJECGLQCGOcGGIoFGOoC2AEBwgIdEC4YgAQYkQIYtAIY5wYYxwEYigUY6gIYrwHYAQHCAhAQABgDGLQCGOoCGI8B2AEBwgIQEC4YAxi0AhjqAhiPAdgBAcICBBAhGBWYAwfxBdIM-4vrYYZoiAYBkAYFugYECAEYB5IHBjExLjkuMqAHoSqyBwUwLjkuMrgH1Q3CBwYzLjE3LjLIBymACAA&sclient=gws-wiz-serp#lrd=0x80dcb1ad6940da43:0xac61961d5c0eba28,3,,,,
+            - generic [ref=e287]:
+              - generic [ref=e291]:
+                - group "1 / 16" [ref=e292]:
+                  - img "Badge" [ref=e294]
+                  - img [ref=e296]
+                  - generic [ref=e300]:
+                    - img [ref=e301]
+                    - generic [ref=e302]:
+                      - paragraph [ref=e303]: Con Connie
+                      - paragraph [ref=e304]: Edited 2 days ago
+                  - generic [ref=e305]:
+                    - img [ref=e306]
+                    - img [ref=e309]
+                    - img [ref=e312]
+                    - img [ref=e315]
+                    - img [ref=e318]
+                  - paragraph [ref=e321]: Edited to add Kudos to Gaby, Dental Hygienist Extraordinaire! My bff, Inge Pelzer, and I were talking about how wonderful Gaby is and we realized we never left a review for her specifically. Gaby is a ray of sunshine and a consummate professional. Always educating, never criticising, and always makes our day just a little bit better by spending time in her chair. Highly recommend! 3/17/26 The absolute best dental care experience in my long life! Everyone I interacted with was professional, courteous, and kind. They were on time and organized. They explained everything, going over and above to keep me informed, comfortable, and relaxed. I've never had a dentist show me my x- rayed teeth. They explained what I was looking at and what the plan was, if needed, for each tooth as well as why they were suggesting that treatment. I was referred to them by my best friend and I can see why she loves them, too. I felt like an honored guest. Highly recommend!
+                  - generic [ref=e322]:
+                    - img [ref=e324]
+                    - generic [ref=e325]:
+                      - paragraph [ref=e326]: Posted on
+                      - paragraph [ref=e327]:
+                        - link "Google" [ref=e328] [cursor=pointer]:
+                          - /url: https://www.google.com/maps/contrib/106369559206270829841/reviews?hl=en-CA
+                - group "2 / 16" [ref=e329]:
+                  - img "Badge" [ref=e331]
+                  - img [ref=e333]
+                  - generic [ref=e337]:
+                    - img [ref=e338]
+                    - generic [ref=e339]:
+                      - paragraph [ref=e340]: Jose Moran
+                      - paragraph [ref=e341]: a week ago
+                  - generic [ref=e342]:
+                    - img [ref=e343]
+                    - img [ref=e346]
+                    - img [ref=e349]
+                    - img [ref=e352]
+                    - img [ref=e355]
+                  - paragraph [ref=e358]: My family and I have been coming in for years! Establishment is very clean. Friendly and educated staff! Whenever I have a concern, they always cover and review our options. Maria as always explaining and helping me with my dough Thank you, Doctor and staff!
+                  - generic [ref=e359]:
+                    - img [ref=e361]
+                    - generic [ref=e362]:
+                      - paragraph [ref=e363]: Posted on
+                      - paragraph [ref=e364]:
+                        - link "Google" [ref=e365] [cursor=pointer]:
+                          - /url: https://www.google.com/maps/contrib/108598415541598948588/reviews?hl=en-CA
+                - group "3 / 16" [ref=e366]:
+                  - img "Badge" [ref=e368]
+                  - img [ref=e370]
+                  - generic [ref=e374]:
+                    - img [ref=e375]
+                    - generic [ref=e376]:
+                      - paragraph [ref=e377]: Reza Shahbaz
+                      - paragraph [ref=e378]: a week ago
+                  - generic [ref=e379]:
+                    - img [ref=e380]
+                    - img [ref=e383]
+                    - img [ref=e386]
+                    - img [ref=e389]
+                    - img [ref=e392]
+                  - paragraph [ref=e395]: I recently had an outstanding experience at this dental practice. From the moment I walked in, I was impressed by the welcoming atmosphere and modern, spotless facility. The entire team provided exceptional care and made me feel at ease. Dr. Rezaei was truly fantastic—his skills were top-notch, and he took the time to explain every step of the process thoroughly, ensuring I understood my options and felt comfortable. I left with complete confidence in his expertise, and the quality of care was second to none. I can’t recommend them highly enough!
+                  - generic [ref=e396]:
+                    - img [ref=e398]
+                    - generic [ref=e399]:
+                      - paragraph [ref=e400]: Posted on
+                      - paragraph [ref=e401]:
+                        - link "Google" [ref=e402] [cursor=pointer]:
+                          - /url: https://www.google.com/maps/contrib/106179128599357282382/reviews?hl=en-CA
+                - group "4 / 16" [ref=e403]:
+                  - img "Badge" [ref=e405]
+                  - img [ref=e407]
+                  - generic [ref=e411]:
+                    - img [ref=e412]
+                    - generic [ref=e413]:
+                      - paragraph [ref=e414]: Shakeal Masoud
+                      - paragraph [ref=e415]: a week ago
+                  - generic [ref=e416]:
+                    - img [ref=e417]
+                    - img [ref=e420]
+                    - img [ref=e423]
+                    - img [ref=e426]
+                    - img [ref=e429]
+                  - paragraph [ref=e432]: I had a great experience at this dental office. The staff is incredibly friendly and Dr. John took the time to explain every step of the treatment. I didn’t feel rushed at all and was very caring. If you’re looking for a dentist in Riverside for cleanings, fillings, or general dental care, this is the place to go. The office is super clean, modern, and they make going to the dentist stress-free. Thank you Doc John !!
+                  - generic [ref=e433]:
+                    - img [ref=e435]
+                    - generic [ref=e436]:
+                      - paragraph [ref=e437]: Posted on
+                      - paragraph [ref=e438]:
+                        - link "Google" [ref=e439] [cursor=pointer]:
+                          - /url: https://www.google.com/maps/contrib/106402121210512460089/reviews?hl=en-CA
+                - group "5 / 16" [ref=e440]:
+                  - img "Badge" [ref=e442]
+                  - img [ref=e444]
+                  - generic [ref=e448]:
+                    - img [ref=e449]
+                    - generic [ref=e450]:
+                      - paragraph [ref=e451]: Leslie Westbrooks
+                      - paragraph [ref=e452]: 2 weeks ago
+                  - generic [ref=e453]:
+                    - img [ref=e454]
+                    - img [ref=e457]
+                    - img [ref=e460]
+                    - img [ref=e463]
+                    - img [ref=e466]
+                  - paragraph [ref=e469]: I don't think there are words to describe how amazing this DMD is and all of his staff too. He is definitely the "SMILE ARCHITECT". He makes you feel like you are his only patient and invests so much time and thought into creating the best treatment plan tailored to you personally. Due to previous high dose chemo years ago it affected the stability of my teeth greatly. I had to have major teeth extractions and implants done and when I discovered him after doing thorough research I KNEW he was my dentist. Yes, it is a bit of a drive for me, but I would fly to see him if I had too!! His credentials are impeccable and his work ethic cannot be surpassed. I am one grateful and loyal patient, and he has improved the quality of my life in so many ways. Best dentist and staff in all of southern CA. Leslie Westbrooks
+                  - generic [ref=e470]:
+                    - img [ref=e472]
+                    - generic [ref=e473]:
+                      - paragraph [ref=e474]: Posted on
+                      - paragraph [ref=e475]:
+                        - link "Google" [ref=e476] [cursor=pointer]:
+                          - /url: https://www.google.com/maps/contrib/108330577638744310144/reviews?hl=en-CA
+                - group "6 / 16" [ref=e477]:
+                  - img "Badge" [ref=e479]
+                  - img [ref=e481]
+                  - generic [ref=e485]:
+                    - img [ref=e486]
+                    - generic [ref=e487]:
+                      - paragraph [ref=e488]: Amilcar Diaz
+                      - paragraph [ref=e489]: a month ago
+                  - generic [ref=e490]:
+                    - img [ref=e491]
+                    - img [ref=e494]
+                    - img [ref=e497]
+                    - img [ref=e500]
+                    - img [ref=e503]
+                  - paragraph [ref=e506]: We couldn’t be happier with our treatment. My wife and I are new patients and I’ve got to say that Dr. Rezai is exceptional. He’s meticulous, professional and has a great bedside manner. His attention to detail and professionalism really set him aside from the other people we’ve seen. We just went in today and I feel like he always goes the extra mile to make sure all the work is done perfectly. Thank you for seeing us today, we hope this review helps you out like you’ve helped us.
+                  - generic [ref=e507]:
+                    - img [ref=e509]
+                    - generic [ref=e510]:
+                      - paragraph [ref=e511]: Posted on
+                      - paragraph [ref=e512]:
+                        - link "Google" [ref=e513] [cursor=pointer]:
+                          - /url: https://www.google.com/maps/contrib/108552008725904644998/reviews?hl=en-CA
+                - group "7 / 16" [ref=e514]:
+                  - img "Badge" [ref=e516]
+                  - img [ref=e518]
+                  - generic [ref=e522]:
+                    - img [ref=e523]
+                    - generic [ref=e524]:
+                      - paragraph [ref=e525]: Marc Larson
+                      - paragraph [ref=e526]: 3 months ago
+                  - generic [ref=e527]:
+                    - img [ref=e528]
+                    - img [ref=e531]
+                    - img [ref=e534]
+                    - img [ref=e537]
+                    - img [ref=e540]
+                  - paragraph [ref=e543]: These guys are STELLAR!!! I am an orthodontist from down the street and I've known these guys forever. However, I've been going to another dentist for 20 years and they retired so I needed a new dentist. An old filling broke and they got me right in even though I was a new patient. I was amazed how easy the front desk and and scheduling folks are. AWESOME!!! Dr. Rezaei was so calm and easy. I absolutely didn't even feel the shot. The whole appointment was a piece of cake. His assistant was so friendly and knowledgeable. She and Doc worked so seamlessly together. I absolutely 100% recommend these guys. If you are looking for a new dentist, make an appointment with these guys.
+                  - generic [ref=e544]:
+                    - img [ref=e546]
+                    - generic [ref=e547]:
+                      - paragraph [ref=e548]: Posted on
+                      - paragraph [ref=e549]:
+                        - link "Google" [ref=e550] [cursor=pointer]:
+                          - /url: https://www.google.com/maps/contrib/107397162293847504997/reviews?hl=en-CA
+                - group "8 / 16" [ref=e551]:
+                  - img "Badge" [ref=e553]
+                  - img [ref=e555]
+                  - generic [ref=e559]:
+                    - img [ref=e560]
+                    - generic [ref=e561]:
+                      - paragraph [ref=e562]: Mariellen Belen
+                      - paragraph [ref=e563]: a year ago
+                  - generic [ref=e564]:
+                    - img [ref=e565]
+                    - img [ref=e568]
+                    - img [ref=e571]
+                    - img [ref=e574]
+                    - img [ref=e577]
+                  - paragraph [ref=e580]: I would give Dr. Rezaei and his office 10 stars if I could! A lifetime of severe dental phobia left me a nightmare to deal with. Dr. Rezaei managed to put my fears to rest with knowledge, understanding and patience. We worked out a plan that feels obtainable, in spite of my many fears. I was reassured by the friendly and kind staff that Dr. Rezaei was gentle and my procedure would be pain-free; and it was. I am so relieved to finally have a positive path forward. A bit of a drive for me but I won't go anywhere else. The office is clean, welcoming and the technology is impressive. Highly recommend!! Thank you to Dr. Rezaei and your amazing staff!
+                  - generic [ref=e581]:
+                    - img [ref=e583]
+                    - generic [ref=e584]:
+                      - paragraph [ref=e585]: Posted on
+                      - paragraph [ref=e586]:
+                        - link "Google" [ref=e587] [cursor=pointer]:
+                          - /url: https://www.google.com/maps/contrib/102760480351206368723/reviews?hl=en-CA
+                - group "9 / 16" [ref=e588]:
+                  - img "Badge" [ref=e590]
+                  - img [ref=e592]
+                  - generic [ref=e596]:
+                    - img [ref=e597]
+                    - generic [ref=e598]:
+                      - paragraph [ref=e599]: lex art
+                      - paragraph [ref=e600]: a year ago
+                  - generic [ref=e601]:
+                    - img [ref=e602]
+                    - img [ref=e605]
+                    - img [ref=e608]
+                    - img [ref=e611]
+                    - img [ref=e614]
+                  - paragraph [ref=e617]: HIGHLY recommend Dr. Rezaei.10 outta 10! He and his staff are all so patient, kind, trustworthy, and hardworking. I had an implant done with him that took other dentist in the IE and LA area YEARS to figure out and with his help I was able to finally have the smile of my dreams. I drive over an hour just to see him since i'm no longer in the area and wouldn't have it any other way. He knows what he's doing and is always professional and still caring. Thank you again to him and the staff at his practice :)
+                  - generic [ref=e618]:
+                    - img [ref=e620]
+                    - generic [ref=e621]:
+                      - paragraph [ref=e622]: Posted on
+                      - paragraph [ref=e623]:
+                        - link "Google" [ref=e624] [cursor=pointer]:
+                          - /url: https://www.google.com/maps/contrib/101169602853886147225/reviews?hl=en-CA
+                - group "10 / 16" [ref=e625]:
+                  - img "Badge" [ref=e627]
+                  - img [ref=e629]
+                  - generic [ref=e633]:
+                    - img [ref=e634]
+                    - generic [ref=e635]:
+                      - paragraph [ref=e636]: Richard Miller
+                      - paragraph [ref=e637]: a year ago
+                  - generic [ref=e638]:
+                    - img [ref=e639]
+                    - img [ref=e642]
+                    - img [ref=e645]
+                    - img [ref=e648]
+                    - img [ref=e651]
+                  - paragraph [ref=e654]: For me their is only 1 dentist that has my trust and praise. Dr Rezaei is one of the most talented and cleaver dentists I've ever seen. I've lived all across this country so my experience with many dentists is obvious. He has changed my life by the quality of his work, I can now smile with total confidence! But to me his kindness and true concern for his patience puts him at the top. Add a great friendly staff and I'm grateful I walked into his office.
+                  - generic [ref=e655]:
+                    - img [ref=e657]
+                    - generic [ref=e658]:
+                      - paragraph [ref=e659]: Posted on
+                      - paragraph [ref=e660]:
+                        - link "Google" [ref=e661] [cursor=pointer]:
+                          - /url: https://www.google.com/maps/contrib/113628189513343177528/reviews?hl=en-CA
+                - group "11 / 16" [ref=e662]:
+                  - img "Badge" [ref=e664]
+                  - img [ref=e666]
+                  - generic [ref=e670]:
+                    - img [ref=e671]
+                    - generic [ref=e672]:
+                      - paragraph [ref=e673]: Sahar R
+                      - paragraph [ref=e674]: 5 years ago
+                  - generic [ref=e675]:
+                    - img [ref=e676]
+                    - img [ref=e679]
+                    - img [ref=e682]
+                    - img [ref=e685]
+                    - img [ref=e688]
+                  - paragraph [ref=e691]: Very caring and amazing team !!!
+                  - generic [ref=e692]:
+                    - img [ref=e694]
+                    - generic [ref=e695]:
+                      - paragraph [ref=e696]: Posted on
+                      - paragraph [ref=e697]:
+                        - link "Google" [ref=e698] [cursor=pointer]:
+                          - /url: https://www.google.com/maps/contrib/118351581224702534206/reviews?hl=en-CA
+                - group "12 / 16" [ref=e699]:
+                  - img "Badge" [ref=e701]
+                  - img [ref=e703]
+                  - generic [ref=e707]:
+                    - img [ref=e708]
+                    - generic [ref=e709]:
+                      - paragraph [ref=e710]: Carlos Cortes
+                      - paragraph [ref=e711]: 5 years ago
+                  - generic [ref=e712]:
+                    - img [ref=e713]
+                    - img [ref=e716]
+                    - img [ref=e719]
+                    - img [ref=e722]
+                    - img [ref=e725]
+                  - paragraph [ref=e728]: Dr. Rezai and his staff are terrific. Excellent dental work and attentive, courteous treatment.
+                  - generic [ref=e729]:
+                    - img [ref=e731]
+                    - generic [ref=e732]:
+                      - paragraph [ref=e733]: Posted on
+                      - paragraph [ref=e734]:
+                        - link "Google" [ref=e735] [cursor=pointer]:
+                          - /url: https://www.google.com/maps/contrib/103833242796606335420/reviews?hl=en-CA
+                - group "13 / 16" [ref=e736]:
+                  - img "Badge" [ref=e738]
+                  - img [ref=e740]
+                  - generic [ref=e744]:
+                    - img [ref=e745]
+                    - generic [ref=e746]:
+                      - paragraph [ref=e747]: Rock Kendall
+                      - paragraph [ref=e748]: 6 years ago
+                  - generic [ref=e749]:
+                    - img [ref=e750]
+                    - img [ref=e753]
+                    - img [ref=e756]
+                    - img [ref=e759]
+                    - img [ref=e762]
+                  - paragraph [ref=e765]
+                  - generic [ref=e766]:
+                    - img [ref=e768]
+                    - generic [ref=e769]:
+                      - paragraph [ref=e770]: Posted on
+                      - paragraph [ref=e771]:
+                        - link "Google" [ref=e772] [cursor=pointer]:
+                          - /url: https://www.google.com/maps/contrib/111264805423944373169/reviews?hl=en-CA
+                - group "14 / 16" [ref=e773]:
+                  - img "Badge" [ref=e775]
+                  - img [ref=e777]
+                  - generic [ref=e781]:
+                    - img [ref=e782]
+                    - generic [ref=e783]:
+                      - paragraph [ref=e784]: Dan Bergstrom
+                      - paragraph [ref=e785]: 6 years ago
+                  - generic [ref=e786]:
+                    - img [ref=e787]
+                    - img [ref=e790]
+                    - img [ref=e793]
+                    - img [ref=e796]
+                    - img [ref=e799]
+                  - paragraph [ref=e802]: Love all the ladies and Dr. Rezaei is amazing! No pain and great results!
+                  - generic [ref=e803]:
+                    - img [ref=e805]
+                    - generic [ref=e806]:
+                      - paragraph [ref=e807]: Posted on
+                      - paragraph [ref=e808]:
+                        - link "Google" [ref=e809] [cursor=pointer]:
+                          - /url: https://www.google.com/maps/contrib/115965376758784849388/reviews?hl=en-CA
+                - group "15 / 16" [ref=e810]:
+                  - img "Badge" [ref=e812]
+                  - img [ref=e814]
+                  - generic [ref=e818]:
+                    - img [ref=e819]
+                    - generic [ref=e820]:
+                      - paragraph [ref=e821]: Carl Shaffer
+                      - paragraph [ref=e822]: 7 years ago
+                  - generic [ref=e823]:
+                    - img [ref=e824]
+                    - img [ref=e827]
+                    - img [ref=e830]
+                    - img [ref=e833]
+                    - img [ref=e836]
+                  - paragraph [ref=e839]: Front office staff are extremely personable, kind and caring! My Hypothesis, Michelle has the best techniques, she is fun, professional and a true joy to know. Dr Rezaei thanks for all you do in fostering this environment. Truly Bruce
+                  - generic [ref=e840]:
+                    - img [ref=e842]
+                    - generic [ref=e843]:
+                      - paragraph [ref=e844]: Posted on
+                      - paragraph [ref=e845]:
+                        - link "Google" [ref=e846] [cursor=pointer]:
+                          - /url: https://www.google.com/maps/contrib/107730992930625956055/reviews?hl=en-CA
+                - group "16 / 16" [ref=e847]:
+                  - img "Badge" [ref=e849]
+                  - img [ref=e851]
+                  - generic [ref=e855]:
+                    - img [ref=e856]
+                    - generic [ref=e857]:
+                      - paragraph [ref=e858]: Florie Green
+                      - paragraph [ref=e859]: 7 years ago
+                  - generic [ref=e860]:
+                    - img [ref=e861]
+                    - img [ref=e864]
+                    - img [ref=e867]
+                    - img [ref=e870]
+                    - img [ref=e873]
+                  - paragraph [ref=e876]
+                  - generic [ref=e877]:
+                    - img [ref=e879]
+                    - generic [ref=e880]:
+                      - paragraph [ref=e881]: Posted on
+                      - paragraph [ref=e882]:
+                        - link "Google" [ref=e883] [cursor=pointer]:
+                          - /url: https://www.google.com/maps/contrib/105856261189587408317/reviews?hl=en-CA
+              - generic:
+                - button "Previous slide" [disabled]: prev
+                - button "Next slide" [ref=e884] [cursor=pointer]: next
+        - generic [ref=e889]:
+          - generic [ref=e891]:
+            - paragraph [ref=e892]:
+              - generic [ref=e893]: Ready to Experience the
+            - paragraph [ref=e894]:
+              - generic [ref=e895]: Vivid Dental Difference?
+          - paragraph [ref=e898]: Book your appointment today and see what we see.
+          - paragraph [ref=e901]:
+            - text: Call Us
+            - generic [ref=e902]: (951) 683-0680
+          - link "BOOK ONLINE" [ref=e904] [cursor=pointer]:
+            - /url: /contact#ContactRequestAppointment
+            - text: 
+            - generic [ref=e905]: BOOK ONLINE
+          - paragraph [ref=e908]: Book your appointment online now
+        - text:  prev next
+    - contentinfo [ref=e910]:
+      - generic [ref=e914]:
+        - generic [ref=e915]:
+          - link "Empty white image." [ref=e918] [cursor=pointer]:
+            - /url: /
+            - img "Empty white image." [ref=e919]
+          - generic [ref=e921]:
+            - paragraph [ref=e922]: "\"See What We See\""
+            - paragraph [ref=e923]:
+              - link "3560 Arlington Ave, Riverside, CA 92506" [ref=e924] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/Vivid+Dental/@33.9460482,-117.3928337,17z/data=!3m2!4b1!5s0x80dcb04b65f26e89:0xbce9a65d87b7ea0d!4m6!3m5!1s0x80dcb1ad6940da43:0xac61961d5c0eba28!8m2!3d33.9460438!4d-117.3902588!16s%2Fg%2F11cly9_k5x?entry=ttu&g_ep=EgoyMDI2MDMwMi4wIKXMDSoASAFQAw%3D%3D
+            - paragraph [ref=e925]
+            - paragraph [ref=e926]:
+              - link "(951) 683-0680" [ref=e927] [cursor=pointer]:
+                - /url: tel:(951) 683-0680
+              - link "info@vividdentalgroup.com" [ref=e928] [cursor=pointer]:
+                - /url: mailto:info@vividdentalgroup.com
+          - generic [ref=e932]:
+            - link "facebook" [ref=e933] [cursor=pointer]:
+              - /url: https://facebook.com/profile.php?id=61586259656683
+              - generic [ref=e934]: 
+            - link "yelp" [ref=e935] [cursor=pointer]:
+              - /url: https://yelp.com/biz/vivid-dental-riverside
+              - generic [ref=e936]: 
+            - link "google_my_business" [ref=e937] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Vivid+Dental/@33.9460482,-117.3928337,17z/data=!3m2!4b1!5s0x80dcb04b65f26e89:0xbce9a65d87b7ea0d!4m6!3m5!1s0x80dcb1ad6940da43:0xac61961d5c0eba28!8m2!3d33.9460438!4d-117.3902588!16s%2Fg%2F11cly9_k5x?entry=ttu&g_ep=EgoyMDI2MDMwMi4wIKXMDSoASAFQAw%3D%3D
+              - generic [ref=e938]: 
+        - generic [ref=e939]:
+          - paragraph [ref=e942]: QUICK LINKS
+          - navigation [ref=e944]:
+            - menubar [ref=e945]:
+              - menuitem "Home" [ref=e946]:
+                - link "Home" [ref=e947] [cursor=pointer]:
+                  - /url: /
+                  - generic [ref=e948]: Home 
+              - menuitem "About" [ref=e949]:
+                - link "About" [ref=e950] [cursor=pointer]:
+                  - /url: /about
+                  - generic [ref=e951]: About 
+              - menuitem "Services " [ref=e952]:
+                - link "Services " [ref=e953] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e954]:
+                    - text: Services
+                    - generic [ref=e955]: 
+                - menu:
+                  - menuitem "Family Dentistry" [ref=e956]:
+                    - link "Family Dentistry" [ref=e957] [cursor=pointer]:
+                      - /url: /family-dentistry
+                      - generic: Family Dentistry 
+                  - menuitem "Dental Implants" [ref=e958]:
+                    - link "Dental Implants" [ref=e959] [cursor=pointer]:
+                      - /url: /dental-implants
+                      - generic: Dental Implants 
+                  - menuitem "Veneers" [ref=e960]:
+                    - link "Veneers" [ref=e961] [cursor=pointer]:
+                      - /url: /veneers
+                      - generic: Veneers 
+                  - menuitem "Invisalign" [ref=e962]:
+                    - link "Invisalign" [ref=e963] [cursor=pointer]:
+                      - /url: /invisalign
+                      - generic: Invisalign 
+              - menuitem "Savings Plan" [ref=e964]:
+                - link "Savings Plan" [ref=e965] [cursor=pointer]:
+                  - /url: /savings-plan
+                  - generic [ref=e966]: Savings Plan 
+              - menuitem "Testimonials" [ref=e967]:
+                - link "Testimonials" [ref=e968] [cursor=pointer]:
+                  - /url: /testimonials
+                  - generic [ref=e969]: Testimonials 
+              - menuitem "Contact" [ref=e970]:
+                - link "Contact" [ref=e971] [cursor=pointer]:
+                  - /url: /contact
+                  - generic [ref=e972]: Contact 
+        - generic [ref=e973]:
+          - paragraph [ref=e976]: SERVICES
+          - paragraph [ref=e979]:
+            - link "Dental Implants" [ref=e980] [cursor=pointer]:
+              - /url: /dental-implants
+        - generic [ref=e981]:
+          - paragraph [ref=e984]: OFFICE HOURS
+          - generic [ref=e987]:
+            - generic [ref=e988]:
+              - term [ref=e989]: Mon - Fri
+              - definition [ref=e990]:
+                - time [ref=e991]: 8:00 am
+                - text: "-"
+                - time [ref=e992]: 5:00 pm
+            - generic [ref=e993]:
+              - term [ref=e994]: Saturday
+              - definition [ref=e995]: Appointment Only
+            - generic [ref=e996]:
+              - term [ref=e997]: Sunday
+              - definition [ref=e998]: Closed
+          - link "BOOK YOUR APPOINTMENT" [ref=e1000] [cursor=pointer]:
+            - /url: /contact#ContactRequestAppointment
+            - text: 
+            - generic [ref=e1001]: BOOK YOUR APPOINTMENT
+          - link "CALL (951) 683-0680" [ref=e1003] [cursor=pointer]:
+            - /url: tel:(951) 683-0680
+            - text: 
+            - generic [ref=e1004]: CALL (951) 683-0680
+      - generic [ref=e1008]:
+        - paragraph [ref=e1012]: © 2026 All Rights Reserved | Vivid Dental
+        - paragraph [ref=e1016]:
+          - link "Privacy Policy" [ref=e1017] [cursor=pointer]:
+            - /url: /privacy-policy

@@ -21,7 +21,7 @@ When tasked with a QA audit or bug verification, you MUST follow this cycle:
 - **Deep-Dive Audit**: Systematically visit each page template and perform the following:
     - **Form Validation**: Test required fields and email syntax using `mcp_playwright_browser_type`.
     - **Link Health**: Verify all `tel:`, `mailto:`, and external links.
-    - **Visual Check**: capture screenshots at 320px, 768px, and 1200px.
+    - **Visual Check**: capture screenshots at 320px, 768px, and 1200px. Vigorously check for and flag any grid or flex layouts where sibling items (like cards) are not uniform in height.
 - **Log Errors**: Use `mcp_playwright_browser_console_messages` to capture and categorize all runtime errors.
 - **Tools**: `mcp_playwright_browser_navigate`, `mcp_playwright_browser_type`, `mcp_playwright_browser_click`.
 
@@ -44,6 +44,10 @@ When tasked with a QA audit or bug verification, you MUST follow this cycle:
 ### 3. Technical Integrity
 - **Action**: Monitor the console for every single page load.
 - **Verification**: Report any `ReferenceError` or `TypeError` as a Critical blocker.
+
+### 4. Visual Consistency & Layout Integrity
+- **Action**: Always examine grid systems, flexbox rows, and card layouts for visual uniformity.
+- **Verification**: Flag any UI issues where sibling elements (e.g., pricing tiers, feature cards, testimonials) do not have the same height or are improperly aligned. This creates a disjointed user experience and must be corrected.
 
 ---
 *Authored by Antigravity QA Agent.*
